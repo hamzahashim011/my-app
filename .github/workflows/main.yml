@@ -22,17 +22,3 @@ jobs:
         run: npm install -g surge
       - name: Run surge
         run: surge ./build undesirable-mark.surge.sh --token ${{ secrets.SURGE_TOKEN }}
-
-          
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
